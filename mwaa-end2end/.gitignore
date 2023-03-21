@@ -1,0 +1,8 @@
+**/.DS_Store
+.idea
+**/.idea
+dist/
+.vscode
+.venv
+*pyc
+mwaairflow/mwaairflow.egg-info/
