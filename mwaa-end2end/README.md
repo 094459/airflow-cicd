@@ -5,6 +5,13 @@ This code will help you deploy via AWS CDK and pipeline that will:
 * deploy MWAA environments and supporting tools
 * deploy your workflows
 
+> **Inspired heavily by an existing AWS project**
+>
+> [cdk-amazon-mwaa-cicd](https://github.com/aws-samples/cdk-amazon-mwaa-cicd)
+> 
+> I borrowed heavily from this project but updated it to use CDKv2
+> 
+
 The CDK app creates two git repositories in AWS CodeCommit (one for infrastructure, the other for the workflows) and then creates two pipelines in AWS CodePipelines that trigger once code has been updated in the git repositories.
 
 To deploy
